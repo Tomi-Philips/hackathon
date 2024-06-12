@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quantico-regular {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  .quantico-bold {
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.quantico-regular-italic {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.quantico-bold-italic {
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+.gradient-text {
+    background: linear-gradient(to right, #667BD4, #3552d4);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-text_two {
+    background: linear-gradient(to right, #3552d4, #667BD4, #2c48c2, #5570eb);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-border {
+    border-style: solid;
+    border-width: 2px;
+    background-image: linear-gradient(to right, #2c48c2, #3490dc);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.btn_color{
+    background: linear-gradient(to right, #c8d2ff, #e4e9ff);
+}
+
+.btn_color_light{
+    background: linear-gradient(to right, #d1daff, #e9edff);
+    border-color: #93a3eb;
+}
+
+.btn_border{
+    border-color: #667BD4;
+}
+
+.custom-scrollbar-thin::-webkit-scrollbar {
+    height: 6px;
+	display: none;
+}
+
+.custom-scrollbar-thin::-webkit-scrollbar-track {
+    background: rgb(198, 224, 247);
+}
+
+.custom-scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgb(169, 210, 247);
+    border-radius: 10px;
+}
+
+.custom-scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: rgb(125, 186, 240);
+}
